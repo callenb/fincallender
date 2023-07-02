@@ -1,4 +1,39 @@
 ---
 ---
 @use 'reset';
-@use 'menu';
+@use 'basics';
+
+header {
+    padding: 0 5%;
+    background-color: #000;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+header a {
+    text-decoration: none;
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 70%;
+}
+
+.hero {
+    background-image: url("/assets/images/tracks/track-Underground-bg-2000x1744.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.hero img {
+    max-width: 80%;
+    padding: 10%;
+}
