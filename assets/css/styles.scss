@@ -2,38 +2,41 @@
 ---
 @use 'reset';
 @use 'basics';
+@use 'menu';
 
-header {
-    padding: 0 5%;
-    background-color: #000;
-    height: 20%;
-    display: flex;
-    justify-content: space-between;
-}
-header a {
-    text-decoration: none;
-}
-
-#brand {
-    font-weight: bold;
-    font-size: 150%;
-    display: flex;
-    align-items: center;
+/* Header */
+.header {
+    background-color: var(--black);
+    box-shadow: 1pc 1px 5px 0px var(--gray);
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
-nav ul li a {
-    color: #fff;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 70%;
+/* logo */
+.logo {
+    display: inline-block;
+    color: var(--white);
+    font-size: 2.5em; /* 12px / 16px */
+    font-style: normal;
+    margin-left: 10px;
 }
 
 .hero {
-    background-image: url("/assets/images/tracks/track-Underground-bg-2000x1744.png");
+    background-image: url("/assets/images/tracks/track-Underground-bg-2000x4333.png");
     background-repeat: none;
-    background-size: cover;
+    background-size: 100vh 92vh;
+    height: 100vh;
 }
 
 .hero img {
-    max-width: 80%;
-    padding: 10%;
+    max-width: 90%;
+    padding: 5%;
+}
+
+.hero button {
+    font-weight: bold;
+    font-size: 2em; /* 32px / 16px */
+    display: block;
+    margin: 0 auto;
 }

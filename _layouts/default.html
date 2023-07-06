@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,8 +13,9 @@
     <link href="assets/css/styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <section id="{% if page.url == '/' -%}{% assign id = 'home' -%}{{ class }}{% endif -%}">
     {% include header.html -%}
     {{ content }}
-    <script src="assets/scripts/index.js"></script>
+    </section>
   </body>
 </html>
