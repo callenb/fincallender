@@ -27,6 +27,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fincallender.com" # the base hostname & protocol for your site, e.g. http://example.com
 
+# hero
+hero:
+  title: 'Underground by Fin Callender'
+  image: '/assets/images/tracks/track-Fudge-2000x2000.avif'
+  link: 'https://distrokid.com/hyperfollow/fincallender/fudge'
+# contact links and icons
 contact:
 - { name: 'Facebook', link: 'https://www.facebook.com/fincallendermusic', icon: 'logo-facebook', aria-label: "Fin on Facebook" }
 - { name: 'Twitter', link: 'https://twitter.com/fincallender', icon: 'logo-twitter', aria-label: "Fin on Twitter" }
