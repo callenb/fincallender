@@ -13,16 +13,26 @@
 .hero button {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.50em; /* 32px / 16px */
-    display: block;
-    margin: 15vh auto;
+    font-size: 1em; /* 16px / 16px */
+    background-color: $text-color;
+    border: none;
+    border-radius: 8px;
+    color: $background-color;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     position: absolute;
-    bottom: 15%;
+    
     width: 60%;
     left: 20%;
-    right:20%;
-    color: $background-color;
+    top: 65%;
 }
+
+.hero button:hover {
+    background-color: $background-color;
+    color: $text-color;
+} 
 
 .scrolldown {
     text-align: center;
