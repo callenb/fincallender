@@ -23,33 +23,13 @@
 @import '3-modules/footer';
 
 /* =======================
+:: 4-Layouts
+======================= */
+@import '4-layouts/home_page';
+/* =======================
 :: Everything after here to be refactored away from this file
 ======================= */
 
-.home p {
-    font-size: 1.2em;
-    padding: 10px 0px;
-}
-
-.home .about {
-    padding: 10px;
-}
-.home .blurb {
-    padding: 10px;
-}
-.leadin h1 {
-    font-size: 2em;
-    display: inline;
-}
-
-.leadin p {
-    display: inline;
-}
-
-.leadout {
-    margin: 0em;
-    padding: 1em 0em;
-}
 
 
 .container {
