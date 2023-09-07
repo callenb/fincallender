@@ -1,20 +1,26 @@
-// menu for site
-:root {
-    --white: #fff;
-    --black: #000;
-    --gray: #85888c;
-} /* variables */
-
-* {
-    box-sizing: border-box;
+/* Header */
+.header {
+    background-color: $background-color;
+    box-shadow: 1pc 1px 5px 0px $background-color;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
-a {
-    text-decoration: none;
+/* logo */
+.logo {
+    display: inline-block;
+    color: $text-color;
+    font-size: 1em; /* 16px / 16px */
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
-ul {
-    list-style: none;
+.logo h2 {
+    font-size: 2.5em; /* 12px / 16px */
+    font-style: normal;
+    font-weight: bold;
 }
 
 /* Nav Menu */
@@ -23,19 +29,19 @@ ul {
     height: 30%;
     position: fixed;
     right: 0;
-    background-color: var(--black);
+    background-color: $background-color;
     overflow: hidden;
 }
 
 .menu a {
     display: block;
     padding: 5px 20px;
-    color: var(--white);
+    color: $text-color;
     font-size: 2em; /* 32 / 16 */
 }
 
 .menu a:hover {
-    background-color: var(--gray);
+    background-color: $highlight-color;
 }
 
 .nav {
@@ -51,7 +57,7 @@ ul {
 } /* Style label tag */
 
 .hamb-line {
-    background: var(--white);
+    background: $text-color;
     display: block;
     height: 2px;
     position: relative;
@@ -60,7 +66,7 @@ ul {
 
 .hamb-line::before,
 .hamb-line::after {
-    background: var(--white);
+    background: $text-color;
     content: '';
     display: block;
     height: 100%;
@@ -117,7 +123,7 @@ ul {
 
     .menu a:hover {
         background-color: transparent;
-        color: var(--gray);
+        color: $highlight-color;
     }
 
     .hamb {

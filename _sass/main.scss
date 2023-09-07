@@ -1,0 +1,69 @@
+/* =======================
+:: Imports files containing scss but has no scss itself
+======================= */
+@import '0-settings/variables';
+
+/* =======================
+:: 1-Tools and Libs
+======================= */
+@import '1-tools/reset';
+@import '1-tools/normalise';
+
+/* =======================
+:: 2-Base Styles
+======================= */
+/* >>>>>>>>>>>>>> :: 2.1-Base <<<<<<<<<<<<<<< */
+@import '2-base/base';
+
+/* =======================
+:: 3-Modules
+======================= */
+@import '3-modules/header';
+@import '3-modules/hero';
+@import '3-modules/footer';
+
+/* =======================
+:: Everything after here to be refactored away from this file
+======================= */
+
+.home p {
+    font-size: 1.2em;
+    padding: 10px 0px;
+}
+
+.home .about {
+    padding: 10px;
+}
+.home .blurb {
+    padding: 10px;
+}
+.leadin h1 {
+    font-size: 2em;
+    display: inline;
+}
+
+.leadin p {
+    display: inline;
+}
+
+.leadout {
+    margin: 0em;
+    padding: 1em 0em;
+}
+
+
+.container {
+    width: 80%;
+    display: inline;
+    text-align: left;
+    position: relative;
+}
+
+.social-icons li {
+    margin: 0 0 5px;
+    float: none;
+    text-align: center;
+    display: inline;
+    position: relative;
+    text-decoration: none;
+}

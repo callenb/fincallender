@@ -1,0 +1,40 @@
+
+// *****************
+// Color Variables
+// *****************
+$dark: #161616;
+$light: #ffffff;
+$white: #ffffff;
+$grey: #85888c;
+
+// Background Colors
+$background-color: $dark;
+
+// Body Color
+$text-color: $light;
+$highlight-color: $grey;
+
+
+// *****************
+// Typography
+// *****************
+$base-font-size: 16px;
+$base-font-style: normal;
+$base-font-variant: normal;
+$base-font-weight: normal;
+$base-font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+$base-line-height: 27px;
+
+// Headings
+$heading-font-weight: 700;
+$heading-font-family: 'Lato',Segoe UI,Verdana,Arial,sans-serif;
+
+
+
+// *****************
+// @media breakpoints
+// *****************
+
+$desktop: 992px;
+$tablet:  768px;
+$mobile:  576px;
