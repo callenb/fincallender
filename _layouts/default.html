@@ -2,7 +2,12 @@
 <html lang="en">
 {% include head.html -%}
   <body>
-    <section id="{% if page.url == '/' -%}{% assign id = 'home' -%}{{ class }}{% endif -%}">
+    {% if page.url == '/' %}
+        {%- assign page_id = 'home' -%}
+    {% else %}
+        {%- assign page_id = 'page' -%}
+    {% endif -%}
+    <section id="{{page_id}}">
     {% include header.html -%}
     {{ content }}
     </section>

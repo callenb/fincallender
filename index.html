@@ -2,19 +2,15 @@
 layout: default
 title: Fin Callender | Official Website
 ---
-<section class="hero">
-    <div class="hero image">
-        <img src="{{ site.hero.image}}" alt="{{site.hero.title}}" />
-        <button type="button" id="heroBtn" onclick="document.location='{{site.hero.link}}'">LISTEN NOW</button>
-    </div>
-    <div>
-        <div class="scrolldown">
+<section class="hero container">
+    <div class="hero-image"><img src="{{ site.hero.image}}" alt="{{site.hero.title}}" /></div>
+    <div class="hero-button"><button type="button" id="heroBtn" onclick="document.location='{{site.hero.link}}'">LISTEN NOW</button></div>
+    <div class="hero-scrolldown">
             <p>scroll down</p>
             <ion-icon name="arrow-down"></ion-icon>
-        </div>
     </div>
 </section>
-<main class="home">
+<main class="home container">
     <section class="about">
         <div class="artwork">
             <img src="/assets/images/people/fin_callender_sitting_on_steps.png" alt="Underground by Fin Callender" />

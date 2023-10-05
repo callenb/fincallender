@@ -8,6 +8,7 @@
 ======================= */
 @import '1-tools/reset';
 @import '1-tools/normalise';
+@import '1-tools/flexbox';
 
 /* =======================
 :: 2-Base Styles
@@ -29,15 +30,6 @@
 /* =======================
 :: Everything after here to be refactored away from this file
 ======================= */
-
-
-
-.container {
-    width: 80%;
-    display: inline;
-    text-align: left;
-    position: relative;
-}
 
 .social-icons li {
     margin: 0 0 5px;

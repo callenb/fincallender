@@ -3,44 +3,56 @@
     background-repeat: no-repeat;
     background-size: 100vh 100vh;
     background-position: 50% 50%;
-    height: 100vh;
+    height: 95vh;
 }
 
+.hero-image {
+    flex: 1 0 50%;
+    flex-direction: column;
+}
+.hero-button {
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+.hero-scrolldown {
+ /*   flex: 1 1 25%;
+    flex-direction: column;*/
+    text-align: center;
+}
 .hero img {
     padding: 5%;
+    align-items: flex-start;
 }
 
+
 .hero button {
-    font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1em; /* 16px / 16px */
     background-color: $text-color;
     border: none;
     border-radius: 8px;
     color: $background-color;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    position: absolute;
-    
-    width: 60%;
+    padding: 20px 10vw;
+    width: 100%;
     left: 20%;
     top: 65%;
 }
 
+/*
 .hero button:hover {
     background-color: $background-color;
     color: $text-color;
     border: 1px solid $white;
 } 
-
-.scrolldown {
+*/
+scrolldown {
     text-align: center;
     position: absolute;
     bottom: 0;
     width: 50%;
     left: 25%;
+    display: block;
 }
 
 .scrolldown p  {
