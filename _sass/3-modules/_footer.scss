@@ -7,3 +7,16 @@
     background-color: rgba(0,0,0,0.32);
     padding: 15px 0 5px;
 }
+
+.social-icons li {
+    margin: 0 0 5px;
+    float: none;
+    text-align: center;
+    display: inline;
+    position: relative;
+    text-decoration: none;
+}
+
+ion-icon {
+    color: $grey;
+}
