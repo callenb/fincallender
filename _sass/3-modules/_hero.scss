@@ -1,9 +1,11 @@
 .hero {
     background-image: url("/assets/images/tracks/track-Fudge_hero-2000x4330-02.avif");
     background-repeat: no-repeat;
-    background-size: 100vh 100vh;
+    background-size: 100%;
     background-position: 50% 50%;
     height: 95vh;
+    background-color: $background-color;
+    width: 100%;
 }
 
 .hero-image {
