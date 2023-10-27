@@ -38,6 +38,9 @@ contact:
 - { name: 'Twitter', link: 'https://twitter.com/fincallender', icon: 'logo-twitter', aria-label: "Fin on Twitter" }
 - { name: 'Instagram', link: 'https://www.instagram.com/fincallender/', icon: 'logo-instagram',  aria-label: "Fin on Instagram" }
 
+# Mailchimp integration
+mailchimp-list: https://mailchi.mp/e955584599ce/mailing-list-sign-up
+
 # Build settings
 # theme: jekyll-theme-fin
 plugins:
