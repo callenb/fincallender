@@ -1,3 +1,104 @@
+.hidden {
+  display: none;
+}
+
+.newsletter {
+  display: block;
+  background-color: $light;
+  color: $dark;
+  padding: 10px 15px;
+}
+.newsletter form {
+  background-color: $light-grey;
+  text-align: center;
+}
+
+.newsletter h2 {
+  display: block;
+  color: $dark;
+  font-size: 1.5em; /* 24px / 16px */
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.newsletter p {
+  display: block;
+  color: $dark;
+}
+
+.newsletter .form-wrapper {
+  padding: 10px 10px 15px;
+  margin-bottom: 30px;
+}
+
+.newsletter .form-wrapper input[type=email] {
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: #1b1b1b;
+  height: 60px;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+  font-size: 100%;
+  line-height: 40px;
+  border: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  writing-mode: horizontal-tb !important;
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+
+.form-action {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.form-row input[type=submit] {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.button {
+  background-color: $dark;
+  border-color: $dark;
+  color: $light;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  border: 2px solid $dark;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  transition: all .2s ease-in-out;
+  margin: 0;
+  width: 90%;
+  letter-spacing: 1px;
+  text-decoration: none !important;
+}
+
+/*
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+/*
 .form {
   display: block;
   background-color: $light-grey;
@@ -162,3 +263,4 @@ button, input, optgroup, select, textarea {
 body, input, textarea, button, select {
   -webkit-font-smoothing: antialiased;
 }
+*/
