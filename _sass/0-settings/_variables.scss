@@ -1,12 +1,37 @@
+// *****************
+// Global Variables
+// *****************
+
+// *****************
+// @media breakpoints
+// *****************
+$desktop: 992px;
+$tablet:  768px;
+$mobile:  576px;
+
 
 // *****************
 // Color Variables
 // *****************
+$brand-color: #161616;
 $dark: #161616;
-$light: #ffffff;
-$white: #ffffff;
+$light: #fff;
 $grey: #85888c;
 $light-grey: #eee;
+$white: #fff;
+// Spelling grey gray
+$gray: $grey;
+$gray-blue: $grey;
+$light-gray: $light-grey;
+
+// Spaces
+$base-spacing-unit: 10px;
+
+// Border radius
+$global-radius: 3px;
+
+// Transition
+$global-transition: all .35s;
 
 // Background Colors
 $background-color: $dark;
@@ -15,11 +40,26 @@ $background-color: $dark;
 $text-color: $light;
 $highlight-color: $grey;
 
+// Headings
+$heading-font-color: $light;
+
+// Links
+$link-color: $light;
+$link-color-hover: darken($grey, 15%);
+$link-text-shadow: rgba(255, 193, 117, 0.8);
+
+// Button
+$button-color: $white;
+$button-background-color: $brand-color;
+
+// Border
+$border-color: $light-grey;
+
 
 // *****************
 // Typography
 // *****************
-$base-font-size: 16px;
+$base-font-size: 1em; /* 16px */
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
@@ -29,13 +69,12 @@ $base-line-height: 27px;
 // Headings
 $heading-font-weight: 700;
 $heading-font-family: 'Lato',Segoe UI,Verdana,Arial,sans-serif;
+$heading-line-height: 1.3em; 
 
 
-
-// *****************
-// @media breakpoints
-// *****************
-
-$desktop: 992px;
-$tablet:  768px;
-$mobile:  576px;
+$font-size-h1:  2.25em; /* 36 / 16 */
+$font-size-h2:  1.75em; /* 28 / 16 */
+$font-size-h3:  1.5em; /* 24 / 16 */
+$font-size-h4:  1.25em; /* 20 / 16 */
+$font-size-h5:  1.125em; /* 18 / 16 */
+$font-size-h6:  1em; /* 16 / 16 */

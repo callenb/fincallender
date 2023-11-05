@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-layout: page-sidebar
+layout: page
 permalink: "/privacy-policy.html"
 comments: false
 ---
