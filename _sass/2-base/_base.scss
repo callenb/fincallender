@@ -53,13 +53,15 @@ h1 {
 
   blockquote {
     position: relative;
-    padding: 20px 20px 20px 35px;
+    padding: 20px 20px 20px 10px;
     margin-bottom: 0;
+    margin-left: 15px;
     font-family: $heading-font-family;
     font-size: 1.125em; /* 18 / 16 */
     line-height: 28px;
     font-weight: 700;
     color: $text-color;
+    border-left: 4px solid $light;
   
     &:before {
       content: '\201C';
@@ -79,6 +81,10 @@ h1 {
         content: '\2014' '\00a0';
       }
     }
+}
+
+blockquote p {
+  font-size: 1.125em;
 }
 
 a {
@@ -102,6 +108,10 @@ a {
  ul, ol,
  dd {
    margin-left: $base-spacing-unit;
+ }
+
+ul {
+  list-style-type: circle;
  }
  
 img {
