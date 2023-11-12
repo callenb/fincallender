@@ -87,7 +87,10 @@ a {
   border-bottom: 1px dashed $link-color;
   transition: $global-transition;
   &:hover {
-      color: darken($link-color, 15%);
+      color: $link-color-hover;
+  }
+  &:visited {
+    color: $link-color;
   }
 }
 

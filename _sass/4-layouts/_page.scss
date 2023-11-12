@@ -42,6 +42,7 @@ blockquote, p {
   margin-bottom: 30px;
 }
 
+
 a {
   text-decoration: none;
   color: $link-color;
@@ -49,5 +50,8 @@ a {
   transition: $global-transition;
   &:hover {
       color: darken($link-color, 15%);
+  }
+  &:visited {
+    color: $link-color;
   }
 }
