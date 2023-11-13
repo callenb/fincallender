@@ -8,6 +8,12 @@
   color: $light;
   padding: 10px 15px;
 }
+
+@media (min-width: $tablet)  {
+  .newsletter {
+    padding: 10px 60px;
+  }
+}
 .newsletter form {
   background-color: $light-grey;
   text-align: center;
@@ -21,6 +27,12 @@
   padding-bottom: 1em;
 }
 
+@media (min-width: $tablet)  {
+  .newsletter h2 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+}
 .newsletter p {
   display: block;
   color: $dark;
@@ -65,6 +77,12 @@
   font-size: 14px;
 }
 
+@media (min-width: $tablet) {
+  .form-row input[type=submit] {
+    font-size: 1.25em;
+  }
+}
+
 .button {
   background-color: $dark;
   border-color: $dark;
@@ -88,6 +106,13 @@
   letter-spacing: 1px;
   text-decoration: none !important;
 }
+
+@media (min-width: $tablet) {
+  .button__funnel {
+    width: 50%;
+  }
+}
+
 
 label.check-terms {
   color: $link-color-inverted;  

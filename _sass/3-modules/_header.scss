@@ -16,6 +16,7 @@
     font-style: normal;
     font-weight: bold;
     margin-left: 10px;
+    border: none;
 }
 
 .logo h2 {
@@ -41,6 +42,7 @@
     padding: 5px 20px;
     color: $text-color;
     font-size: 2em; /* 32 / 16 */
+    border: none;
 }
 
 .menu a:hover {
@@ -50,6 +52,38 @@
 .nav {
     max-height: 0;
     transition: max-height .5s ease-out;
+}
+
+@media (min-width: $tablet) {
+    .nav {
+        height: 5vh;
+        top: 0;
+        max-height: none;
+        transition: none;
+    }
+
+    ul.menu {
+        list-style: none;
+        float: right;
+        padding-top: 10px;
+    }
+
+    .menu a {
+        font-size: 1em;
+    }
+
+    .menu li {
+        float: left;
+    }
+
+    .menu a:hover {
+        background-color: transparent;
+        color: $highlight-color;
+    }
+
+    .hamb {
+        display: none;
+    }
 }
 
 /* Menu Icon */
@@ -109,27 +143,3 @@
     top:0;
 }
 
-/* Responsiveness */
-@media (min-width: 768px) {
-    .nav {
-        max-height: none;
-        top: 0;
-        position: relative;
-        float: right;
-        width: fit-content;
-        background-color: transparent;
-    }
-
-    .menu li {
-        float: left;
-    }
-
-    .menu a:hover {
-        background-color: transparent;
-        color: $highlight-color;
-    }
-
-    .hamb {
-        display: none;
-    }
-}
