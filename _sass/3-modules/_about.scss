@@ -6,3 +6,14 @@
     margin-right: auto;
   }
 }
+
+@media (min-width: $desktop) {
+  .about div.artwork {
+    float: left;
+    width: 45%;
+  }
+  .about div.blurb {
+    float: right;
+    width: 45%;
+  }
+}
