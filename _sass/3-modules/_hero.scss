@@ -7,6 +7,15 @@
     background-color: $background-color;
     width: 100%;
 }
+@media (min-width: $desktop) {
+    .hero {
+        background-size: 100% 95vh;
+    } 
+    .hero.container {
+        flex-direction: column;
+    } 
+  }
+  
 
 .hero-image {
     flex: 1 0 50%;
@@ -28,6 +37,17 @@
     align-items: flex-start;
 }
 
+@media (min-width: $desktop) {
+    .hero img {
+        max-height: 80vh;
+      /*  padding: 5% 0% 0% 0%;*/
+    }
+
+    .hero-scrolldown p {
+        margin-bottom: 5px;
+    }
+}
+
 .hero button {
     font-weight: bold;
     font-size: 1em; /* 16px / 16px */
@@ -40,6 +60,8 @@
     left: 20%;
     top: 65%;
 }
+
+
 
 .hero button:hover {
     background-color: $background-color;
