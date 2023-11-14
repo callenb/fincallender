@@ -15,13 +15,13 @@
   }
 }
 .newsletter form {
-  background-color: $light-grey;
+  background-color: $background-color;
   text-align: center;
 }
 
 .newsletter h2 {
   display: block;
-  color: $dark;
+  color: $text-color;
   font-size: 1.5em; /* 24px / 16px */
   padding-top: 1em;
   padding-bottom: 1em;
@@ -35,7 +35,7 @@
 }
 .newsletter p {
   display: block;
-  color: $dark;
+  color: $text-color;
 }
 
 .newsletter .form-wrapper {
@@ -51,8 +51,8 @@
   margin: 0;
   padding: 0;
   position: relative;
-  background-color: $light-grey;
-  color: #1b1b1b;
+  background-color: $background-color;
+  color: $text-color;
   height: 60px;
   width: 100%;
   max-width: 100%;
@@ -60,7 +60,7 @@
   font-size: 100%;
   line-height: 40px;
   border: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid $text-color;
   border-radius: 0;
   writing-mode: horizontal-tb !important;
   padding-block: 1px;
@@ -85,14 +85,14 @@
 
 .button {
   background-color: $dark;
-  border-color: $dark;
-  color: $light;
+  color: $text-color;
   font-weight: 600;
   font-size: 14px;
   padding: 16px 20px;
   line-height: 20px;
   text-transform: uppercase;
-  border: 2px solid $dark;
+  border: 2px solid $text-color;
+  border-radius: 10px;
   box-sizing: border-box;
   cursor: pointer;
   position: relative;
@@ -115,16 +115,16 @@
 
 
 label.check-terms {
-  color: $link-color-inverted;  
+  color: $link-color;  
 }
 .check-terms a {
-  color: $link-color-inverted;
-  border-bottom: 1px dashed $link-color-inverted;
+  color: $link-color;
+  border-bottom: 1px dashed $link-color;
   transition: $global-transition;
   &:hover {
       color: $link-color-hover;
   }
   &:visited {
-    color: $link-color-inverted;
+    color: $link-color;
   }
 }
