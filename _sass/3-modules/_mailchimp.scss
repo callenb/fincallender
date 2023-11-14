@@ -14,6 +14,14 @@
     padding: 10px 60px;
   }
 }
+
+@media (min-width: $desktop) {
+  .newsletter {
+    max-width: 50%;
+    margin-left: 25%;
+  }
+  
+}
 .newsletter form {
   background-color: $background-color;
   text-align: center;
