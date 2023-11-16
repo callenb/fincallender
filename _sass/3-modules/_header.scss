@@ -8,6 +8,11 @@
     height: 5vh;
 }
 
+@media (min-width: $desktop) {
+    .header {
+        height: 6vh;
+    }
+} 
 /* logo */
 .logo {
     display: inline-block;
