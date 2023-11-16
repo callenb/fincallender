@@ -3,6 +3,7 @@ layout: page
 title: "Terms and conditions"
 permalink: "/terms-and-conditions.html"
 comments: false
+published: false
 ---
 >This page and any pages it links to explains fincallender.com’s terms of use. You must agree to these to use fincallender.com.
 
