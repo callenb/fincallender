@@ -30,7 +30,7 @@ url: "https://dev.fincallender.com" # the base hostname & protocol for your site
 # hero
 hero:
   title: 'Underground by Fin Callender'
-  image: '/assets/images/tracks/track-Fudge-2000x2000.avif'
+  image: '/assets/images/tracks/track-Fudge-2000x2000.png'
   link: 'https://distrokid.com/hyperfollow/fincallender/fudge'
 # contact links and icons
 contact:
