@@ -6,7 +6,7 @@ permalink: "/privacy-policy/"
 ---
 Privacy Policy for {{site.url}}
 
-Last updated: {{Date}} 
+Last updated: {{page.date | date_to_string}} 
 
 (1) Introduction
 : Welcome to tthe website for {{site.title}} hosted at {{site.url}} ("us", "we", or "our"). This privacy policy outlines how we collect, use, disclose, and safeguard your personal information, especially in relation to newsletter subscriptions. By subscribing to our newsletter or using our website, you agree to the terms outlined in this policy.

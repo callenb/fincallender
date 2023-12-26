@@ -6,7 +6,7 @@ permalink: "/cookies-policy/"
 ---
 Cookie Policy for {{site.url}}
 
-Last Updated: {{post.date}}
+Last updated: {{page.date | date_to_string}} 
 
 (1.) Introduction
 : This Cookie Policy explains how our website (YourWebsite.com) uses cookies and similar technologies to improve your browsing experience. By continuing to use our website, you consent to the use of cookies in accordance with this policy.

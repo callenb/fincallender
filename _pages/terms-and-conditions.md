@@ -6,7 +6,7 @@ permalink: "/terms-and-conditions/"
 ---
 Terms and Conditions of Use for {{site.url}}
 
-Last updated: {{date}} 
+Last updated: {{page.date | date_to_string}} 
 
 (1) Acceptance of Terms
 : By accessing and using the website of {{site.title}} at {{site.url}} (the "Website"), you agree to comply with and be bound by these terms and conditions. If you do not agree to these terms, please refrain from using the Website.
