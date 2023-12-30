@@ -1,4 +1,15 @@
 /* =======================
+:: Imports Font-Awesome
+======================= */
+@import 'fa-scss/fontawesome.scss';
+
+/* =======================
+:: our project needs Solid + Brands
+======================= */ 
+@import "fa-scss/solid.scss";
+@import "fa-scss/brands.scss";
+
+/* =======================
 :: Imports files containing scss but has no scss itself
 ======================= */
 @import '0-settings/variables';

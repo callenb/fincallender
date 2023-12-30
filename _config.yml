@@ -34,9 +34,10 @@ hero:
   link: 'https://distrokid.com/hyperfollow/fincallender/fudge'
 # contact links and icons
 contact:
-- { name: 'Facebook', link: 'https://www.facebook.com/fincallendermusic', icon: 'logo-facebook', aria-label: "Fin on Facebook" }
-- { name: 'Twitter', link: 'https://twitter.com/fincallender', icon: 'logo-twitter', aria-label: "Fin on Twitter" }
-- { name: 'Instagram', link: 'https://www.instagram.com/fincallender/', icon: 'logo-instagram',  aria-label: "Fin on Instagram" }
+- { name: 'Spotify', link: 'https://open.spotify.com/artist/3tV6lqHMXqZGj8AGbCTJco', icon: 'fa-spotify', aria-label: "Fin on Spotify" }
+- { name: 'Facebook', link: 'https://www.facebook.com/fincallendermusic', icon: 'fa-facebook', aria-label: "Fin on Facebook" }
+- { name: 'Twitter', link: 'https://twitter.com/fincallender', icon: 'fa-twitter', aria-label: "Fin on Twitter" }
+- { name: 'Instagram', link: 'https://www.instagram.com/fincallender/', icon: 'fa-instagram',  aria-label: "Fin on Instagram" }
 
 # Mailchimp integration
 mailchimp-list: https://mailchi.mp/e955584599ce/mailing-list-sign-up

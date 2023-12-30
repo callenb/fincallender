@@ -3,7 +3,7 @@
         <ul class="social-icons">
   {% for contact in site.contact -%}
           <li class="contact_item">
-            <a class="contact_link" href="{{contact.link}}" target="_blank" rel="noopener"><ion-icon name="{{contact.icon}}" size="large" aria-label="{{contact.aria-label}}"></ion-icon></a>
+            <a class="contact_link" href="{{contact.link}}" target="_blank" rel="noopener"><i class="fa-brands {{contact.icon}} fa-2xl" style="color: #85888c" aria-label="{{contact.aria-label}}"></i></a>
           </li>
   {% endfor -%}
         </ul>
