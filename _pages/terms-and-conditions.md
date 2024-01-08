@@ -3,11 +3,8 @@ layout: page
 title: Terms and Conditions
 date: 2023-12-25T18:45:00+01:00
 permalink: "/terms-and-conditions/"
+callout: Terms and Conditions of Use for https://fincallender.com
 ---
-Terms and Conditions of Use for {{site.url}}
-
-Last updated: {{page.date | date_to_string}} 
-
 (1) Acceptance of Terms
 : By accessing and using the website of {{site.title}} at {{site.url}} (the "Website"), you agree to comply with and be bound by these terms and conditions. If you do not agree to these terms, please refrain from using the Website.
 
@@ -36,7 +33,7 @@ Last updated: {{page.date | date_to_string}}
 : {{site.title}}
 : {{site.email}}
 
-We have the following legal documentation:
+#### We have the following legal documentation:
 - [Terms and Conditions](/terms-and-conditions/)
 - [Privacy Policy](/privacy-policy/)
 - [Cookie Policy](/cookies-policy/)

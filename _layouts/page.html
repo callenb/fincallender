@@ -2,32 +2,22 @@
 layout: default
 ---
       <div class="container">
-        <div class="row">
-          <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
-            <div class="page-head">
-              <h1 class="page-head__title">{{ page.title | escape }}</h1>
-            </div>
-          </div>
-        </div>
+        <main>
+          <h1>{{ page.title | escape }}</h1>
+          {% if page.image %}
+          <img src="{{page.image}}" alt="{{ page.title | escape }}" />
+          {% endif %}
+          {% if page.date %}
+          <section class="updated">
+            <p>Last Updated: {{page.date | date_to_long_string}}</p>
+          </section>
+          {% endif %}
+          {% if page.callout %}
+          <section class="callout">
+            <p>{{page.callout}}</p>
+          </section>
+          {% endif %}
+          {{ content}}
+        </main>
       </div>
-
-      <!-- begin page -->
-      <article class="page fadein">
-        <div class="container">
-          <div class="row">
-            {% if page.image %}
-            <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
-              <div class="image-box">
-                <div class="page-image" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
-              </div>
-            </div>
-            {% endif %}
-            <div class="col col-8 col-d-10 push-d-1 push-2 col-m-12 push-m-0">
-              <div class="page__content">
-                {{ content }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
       <!-- end page -->

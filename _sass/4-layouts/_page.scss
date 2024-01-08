@@ -1,7 +1,41 @@
 /* Page */
+section#page main {
+  padding: 10px;
+}
+
+section.callout {
+  margin: 20px 0px;
+  padding: 10px 5px;
+  border: 1px solid;
+}
+
+section.callout p {
+  text-align: center;
+}
+
+section.updated {
+  padding: 0px 10px 20px;
+}
+section.updated p {
+  text-align: right;
+  color: $grey;
+}
+dl {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+dt {
+  font-size: $font-size-h4;
+  line-height: $line-height-h4;
+  margin: 10px 0px;
+  text-decoration: underline;
+}
+dd {
+  padding: 5px 0px;
+}
 .page-head {
   max-width: 600px;
-  margin: 150px auto 30px;
+  /*margin: 150px auto 30px;*/
   text-align: center;
  /* @media only screen and (max-width: $mobile) {
     margin: 120px auto 20px;
@@ -9,8 +43,8 @@
 }
 
 .page-head__title {
-  font-size: 1.5em; /* 24 / 16 */ /*37px; */
-  line-height: 34px;
+  /*font-size: 1.5em; /* 24 / 16 */ /*37px; */
+  /*line-height: 34px;*/
   margin-bottom: 10px;
 }
 
@@ -43,7 +77,7 @@ dd {
 
 ul, ol, dl,
 blockquote, p {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 
