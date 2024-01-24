@@ -1,0 +1,54 @@
+.fin-Pointers {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.fin-Pointers_Headline {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.fin-Pointers_List {
+    padding: 20px;
+    list-style: none;
+    counter-reset: li;
+    margin: 0;
+}
+
+.fin-Pointer:before {
+    display: inline-block;
+    text-align: right;
+    width: 30px;
+    position: absolute;
+    top: -6px;
+    left: -39px;
+    content: counter(li);
+    font-size: 25px;
+    color: $grey;
+}
+
+.fin-Pointer {
+    counter-increment: li;
+    /*font-size: 14px;*/
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.fin-Pointer_Title {
+    font-weight: 600;
+    /*font-size: 16px;*/
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.fin-Pointer_Content {
+    /*font-size: .9rem;*/
+    line-height: 1.6;
+}
+
+
+
+li {
+    display: list-item;
+}

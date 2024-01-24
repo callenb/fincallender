@@ -7,11 +7,11 @@
     {% else %}
         {%- assign page_id = 'page' -%}
     {% endif -%}
-    <section id="{{page_id}}">
+    <div id="{{page_id}}" class="wrapper flexbox">
     {% include header.html -%}
     {{ content }}
-    </section>
-{% include footer.html -%}
+    {% include footer.html -%}
+    </div>
 {% include scripts-final.html -%}
 {% include cookie-consent.html %}
   </body>
