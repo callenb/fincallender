@@ -12,7 +12,7 @@
 .fin-Pointers_List {
     padding: 20px;
     list-style: none;
-    counter-reset: li;
+    counter-reset: list;
     margin: 0;
 }
 
@@ -23,13 +23,39 @@
     position: absolute;
     top: -6px;
     left: -39px;
-    content: counter(li);
+    content: counter(list);
     font-size: 25px;
     color: $grey;
 }
 
 .fin-Pointer {
-    counter-increment: li;
+    counter-increment: list;
+    /*font-size: 14px;*/
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.fin-Pointers_SubList {
+    padding: 0px 20px;
+    list-style: none;
+    counter-reset: sublist;
+    margin: 0;
+}
+
+.fin-Pointer-sublist:before {
+    display: inline-block;
+    text-align: right;
+    width: 30px;
+    position: absolute;
+    top: -6px;
+    left: -39px;
+    content: counter(list) "." counter(sublist);
+    font-size: 25px;
+    color: $grey;
+}
+
+.fin-Pointer-sublist {
+    counter-increment: sublist;
     /*font-size: 14px;*/
     position: relative;
     margin-bottom: 30px;

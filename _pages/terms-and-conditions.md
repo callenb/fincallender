@@ -5,7 +5,6 @@ date: 2023-12-25T18:45:00+01:00
 permalink: "/terms-and-conditions/"
 id: pointers
 class: fin-Pointers
-callout: Terms and Conditions of Use for https://fincallender.com
 ---
 
 {% include fin-pointers-open.html title="Terms and Conditions" %}
