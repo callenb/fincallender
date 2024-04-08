@@ -10,11 +10,19 @@
 }
 
 .fin-Pointers_List {
+    display: grid;
+    grid-auto-flow: row;
     padding: 20px;
     list-style: none;
     counter-reset: list;
     margin: 0;
 }
+@media (min-width: $desktop) {
+    .fin-Pointers_List {
+        grid-template-columns: repeat(3, 3fr);
+        gap: 10px;
+    }
+} 
 
 .fin-Pointer:before {
     display: inline-block;
@@ -71,6 +79,7 @@
 .fin-Pointer_Content {
     /*font-size: .9rem;*/
     line-height: 1.6;
+    padding: 0px 10px;
 }
 
 
