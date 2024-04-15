@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
 </head>
 <body>
-    <section id="home">
+    <div id="home" class="wrapper flexbox">
           <header class="header">
         <a href="/" class="logo"><h2>FIN CALLENDER</h2></a>
         <input class="side-menu" type="checkbox" id="side-menu"/>
@@ -26,27 +26,24 @@
           </ul>
         </nav>
       </header>
-<section class="hero container">
+  <main class="hero flexbox">
     <div class="hero-image"><img src="/assets/images/tracks/track-Fudge-2000x2000.png" alt="Underground by Fin Callender" /></div>
     <div class="hero-button"><button type="button" id="heroBtn" onclick="document.location='https://distrokid.com/hyperfollow/fincallender/fudge'">LISTEN NOW</button></div>
     <div class="hero-scrolldown">
-            <p>scroll down</p>
-            <ion-icon name="arrow-down"></ion-icon>
+      <p>scroll down</p>
+      <i class="fa-solid fa-circle-arrow-down"></i>
     </div>
-</section>
-<main class="home container">
-    <section class="about">
-        <div class="artwork">
-            <img src="/assets/images/people/fin_callender_sitting_on_steps.png" alt="Underground by Fin Callender" />
-        </div>
-        <div class="blurb">
-            <p><span class="leadin">Fin Callender </span>is a 21-year-old Electronic Dance Music Producer from Wokingham, Berkshire, and is currently based in Hull.</p>
-            <p>Debuting with his Future Rave track ‘Make Me Feel’, Fin Callender is eager to grow his sound and production to greater levels going forward whilst also expanding it to further push his skills into other electronic dance music genres and beyond.</p>
-        </div>
-        
-    </section>
-</main>
-<section class="newsletter text-align__center">
+  </main> 
+  <section class="about flexbox">
+    <div class="artwork">
+        <img src="/assets/images/people/fin_callender_sitting_on_steps.png" alt="Underground by Fin Callender" />
+    </div>
+    <div class="blurb">
+        <p><span class="leadin">Fin Callender </span>is a 21-year-old Electronic Dance Music Producer from Wokingham, Berkshire, and is currently based in Hull.</p>
+        <p>Debuting with his Future Rave track ‘Make Me Feel’, Fin Callender is eager to grow his sound and production to greater levels going forward whilst also expanding it to further push his skills into other electronic dance music genres and beyond.</p>
+    </div>
+  </section>
+  <section class="newsletter text-align__center flexbox">
   <form action="https://mailchi.mp/e955584599ce/mailing-list-sign-up" method="post" name="mc-embedded-subscribe-form" class="form" target="_blank" novalidate="">
       <h2>Signup</h2>
       <div class="form-wrapper">
@@ -65,8 +62,7 @@
       </div>
   </form>
 </section>
-    </section>
-    <footer id="main-footer">
+        <footer id="main-footer flexbox">
       <div id="footer-final">
         
       <div class="container">
@@ -87,6 +83,7 @@
       </div>
 </div>
     </footer>
+</div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <style>
