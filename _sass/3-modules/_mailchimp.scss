@@ -7,10 +7,11 @@
 }
 
 .newsletter {
-  display: block;
+  width: 100%;
   background-color: $brand-color;
   color: $light;
   padding: 10px 15px;
+  width: 100%;
 }
 
 @media (min-width: $tablet)  {
@@ -21,15 +22,33 @@
 
 @media (min-width: $desktop) {
   .newsletter {
-    max-width: 50%;
-    margin-left: 25%;
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
   }
   
 }
 .newsletter form {
   background-color: $background-color;
   text-align: center;
+  padding: 0%;
+  width: 80%;
 }
+
+@media (min-width: $tablet) {
+  .newsletter form {
+    width: 60%;
+  }
+}
+
+@media (min-width: $desktop) {
+  .newsletter form {
+    width: 30%;
+  }
+}
+
+
 
 .newsletter h2 {
   display: block;
