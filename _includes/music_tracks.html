@@ -1,0 +1,10 @@
+<section class="tracks grid">
+{% for track in site.data.tracks %}
+  {% if track.select == "Y" %}
+    <div class="track" style="background-image: url({{ track.background }})">
+        <div class="track-image"><img src="{{ track.image }}" alt="{{ track.title }} by {{ track.artist }}" /></div>
+        <div class="track-button"><button type="button" id="trackBtn{{ track.sequence }}" onclick="document.location='{{ track.link }}'">LISTEN NOW</button></div>
+    </div>
+  {% endif %}  
+{% endfor %}
+</section>

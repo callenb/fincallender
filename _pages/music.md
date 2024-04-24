@@ -2,5 +2,6 @@
 layout: page
 title: "Music"
 permalink: "/music/"
+image: /assets/images/people/fin_profile_02.jpg
 ---
-Stub for the Music page.
+{% include music_tracks.html %}
