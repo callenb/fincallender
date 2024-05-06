@@ -25,10 +25,10 @@
 - title: Both of Us
   artist: Mimi Webb (Fin Callender Remix)
   sequence: 5
-  image: /assets/images/tracks/track-both_of_us_fincallender_remix-1282x723.png
-  background: /assets/images/tracks/track-background-2000x4330.png
+  image: /assets/images/tracks/track-both_of_us_remix-2000x2000.jpg
+  background: /assets/images/tracks/track-bg-both_of_us_remix-2000x4333.jpg
   link: https://youtu.be/K06SbsFU8eA?si=G9MGH2ReO0-0aB3N
-  select: N
+  select: Y
 
 - title: Fudge
   artist: Fin Callender
@@ -49,7 +49,7 @@
 - title: Underground
   artist: Fin Callender
   sequence: 5
-  image: /assets/images/tracks/track-Underground-2000x2000.png
-  background: /assets/images/tracks/track-background-2000x4330.png
+  image: /assets/images/tracks/track-Underground-2000x2000.jpg
+  background: /assets/images/tracks/track-Underground-bg-2000x4333.jpg
   link: https://youtu.be/gVhEzrLdPAg?si=rNfkxr5XaPN5HzZ7
-  select: N
+  select: Y
