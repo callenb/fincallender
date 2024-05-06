@@ -19,6 +19,13 @@
     width: 100%;
 }
 
+@media (min-width: $desktop) {
+    .track {
+        height: 80vh;
+        width: 33vw;
+    }
+} 
+
 .track-image {
     padding: 5vh 5%;
     width: 100%;
@@ -32,6 +39,11 @@
 .track-button {
     width: 100%;
     padding: 5vh 25vw;
+}
+@media (min-width: $desktop) {
+    .track-button {
+        padding: 0vh 10vw;
+    }
 }
 
 .track-button button {
