@@ -30,8 +30,8 @@ url: "https://dev.fincallender.com" # the base hostname & protocol for your site
 # hero
 hero:
   title: Fudge by Fin Callender'
-  image: /assets/images/tracks/track-fudge-2000x2000.png
-  link: 'https://distrokid.com/hyperfollow/fincallender/fudge'
+  image: /assets/images/tracks/track-waiting_here_for_you-2000x2000.jpg
+  link: 'https://youtu.be/ZAjSZElSOj8?si=hCdL2DZ5qg65lXzs'
 # contact links and icons
 contact:
 - { name: 'Spotify', link: 'https://open.spotify.com/artist/3tV6lqHMXqZGj8AGbCTJco', icon: 'fa-spotify', aria-label: "Fin on Spotify" }
