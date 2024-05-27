@@ -33,8 +33,8 @@
 - title: Fudge
   artist: Fin Callender
   sequence: 5
-  image: /assets/images/tracks/track-fudge-2000x2000.png
-  background: /assets/images/tracks/track-bg-fudge-2000x4330.png
+  image: /assets/images/tracks/track-Fudge-2000x2000.jpg
+  background: /assets/images/tracks/track-bg-Fudge-2000x4330.jpg
   link: https://youtu.be/6oP2wDl9kh4?si=VGL44k2iKukYk0u4
   select: Y
 
@@ -50,6 +50,6 @@
   artist: Fin Callender
   sequence: 5
   image: /assets/images/tracks/track-Underground-2000x2000.jpg
-  background: /assets/images/tracks/track-Underground-bg-2000x4333.jpg
+  background: /assets/images/tracks/track-bg-Underground-2000x4333.jpg
   link: https://youtu.be/gVhEzrLdPAg?si=rNfkxr5XaPN5HzZ7
   select: Y
