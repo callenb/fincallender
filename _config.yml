@@ -25,18 +25,19 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fincallender.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dev.fincallender.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # hero
 hero:
-  title: 'Underground by Fin Callender'
-  image: '/assets/images/tracks/track-Fudge-2000x2000.avif'
-  link: 'https://distrokid.com/hyperfollow/fincallender/fudge'
+  title: Fudge by Fin Callender'
+  image: /assets/images/tracks/track-waiting_here_for_you-2000x2000.jpg
+  link: 'https://youtu.be/ZAjSZElSOj8?si=hCdL2DZ5qg65lXzs'
 # contact links and icons
 contact:
-- { name: 'Facebook', link: 'https://www.facebook.com/fincallendermusic', icon: 'logo-facebook', aria-label: "Fin on Facebook" }
-- { name: 'Twitter', link: 'https://twitter.com/fincallender', icon: 'logo-twitter', aria-label: "Fin on Twitter" }
-- { name: 'Instagram', link: 'https://www.instagram.com/fincallender/', icon: 'logo-instagram',  aria-label: "Fin on Instagram" }
+- { name: 'Spotify', link: 'https://open.spotify.com/artist/3tV6lqHMXqZGj8AGbCTJco', icon: 'fa-spotify', aria-label: "Fin on Spotify" }
+- { name: 'Facebook', link: 'https://www.facebook.com/fincallendermusic', icon: 'fa-facebook', aria-label: "Fin on Facebook" }
+- { name: 'Twitter', link: 'https://twitter.com/fincallender', icon: 'fa-twitter', aria-label: "Fin on Twitter" }
+- { name: 'Instagram', link: 'https://www.instagram.com/fincallender/', icon: 'fa-instagram',  aria-label: "Fin on Instagram" }
 
 # Mailchimp integration
 mailchimp-list: https://mailchi.mp/e955584599ce/mailing-list-sign-up
@@ -46,6 +47,16 @@ mailchimp-list: https://mailchi.mp/e955584599ce/mailing-list-sign-up
 plugins:
   - jekyll-feed
 
+# Pages
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+  
 # saas
 sass:
   sass_dir: _sass

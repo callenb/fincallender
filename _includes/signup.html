@@ -1,7 +1,6 @@
-<section class="newsletter text-align__center">
+<section class="newsletter flexbox">
   <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="form" target="_blank" novalidate="">
-      <h2>Let's stay in touch</h2>
-      <p>Subscribe to my newsletter to stay up to date!</p>
+      <h2>Signup</h2>
       <div class="form-wrapper">
           <div class="row col-xs__middle form-row">
               <div class="col-xs form-input form-input__text">
@@ -9,13 +8,12 @@
                   <input type="email" name="EMAIL" id="NewsletterFormEmail" class="contact-form-email newsletter" placeholder="Enter your email to subscribe to our newsletter" value="" spellcheck="false" autocomplete="off" autocapitalize="off" >
               </div>
               <div class="form-action">
-                  <input type="submit" class="button button__funnel" value="Subscribe"><br>
+                  <input type="submit" class="button button__funnel" value="Signup"><br>
                   <div class="input-check-terms">
-                      <input type="checkbox" id="terms" name="terms" required="">
-                      <label class="check-terms" for="terms">I accept <a href="https://shop.martingarrix.com/collections/new-items" target="_blank">Terms &amp; Conditions</a></label>
+                      <a class="terms" href="/terms-and-conditions/" target="_blank">Terms &amp; Conditions</a>
                   </div>
               </div>
           </div>
       </div>
-  </form></div> 
+  </form>
 </section>

@@ -2,28 +2,72 @@
   display: none;
 }
 
+.row {
+  width: 100%;
+}
+
 .newsletter {
-  display: block;
-  background-color: $light;
-  color: $dark;
+  width: 100%;
+  background-color: $brand-color;
+  color: $light;
   padding: 10px 15px;
+  width: 100%;
+}
+
+@media (min-width: $tablet)  {
+  .newsletter {
+    padding: 10px 60px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .newsletter {
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+  
 }
 .newsletter form {
-  background-color: $light-grey;
+  background-color: $background-color;
   text-align: center;
+  padding: 0%;
+  width: 80%;
 }
+
+@media (min-width: $tablet) {
+  .newsletter form {
+    width: 60%;
+  }
+}
+
+@media (min-width: $desktop) {
+  .newsletter form {
+    width: 30%;
+  }
+}
+
+
 
 .newsletter h2 {
   display: block;
-  color: $dark;
+  color: $text-color;
   font-size: 1.5em; /* 24px / 16px */
   padding-top: 1em;
   padding-bottom: 1em;
+  text-transform: uppercase;
 }
 
+@media (min-width: $tablet)  {
+  .newsletter h2 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+}
 .newsletter p {
   display: block;
-  color: $dark;
+  color: $text-color;
 }
 
 .newsletter .form-wrapper {
@@ -39,7 +83,8 @@
   margin: 0;
   padding: 0;
   position: relative;
-  color: #1b1b1b;
+  background-color: $background-color;
+  color: $text-color;
   height: 60px;
   width: 100%;
   max-width: 100%;
@@ -47,7 +92,7 @@
   font-size: 100%;
   line-height: 40px;
   border: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid $text-color;
   border-radius: 0;
   writing-mode: horizontal-tb !important;
   padding-block: 1px;
@@ -64,16 +109,22 @@
   font-size: 14px;
 }
 
+@media (min-width: $tablet) {
+  .form-row input[type=submit] {
+    font-size: 1.25em;
+  }
+}
+
 .button {
   background-color: $dark;
-  border-color: $dark;
-  color: $light;
+  color: $text-color;
   font-weight: 600;
   font-size: 14px;
   padding: 16px 20px;
   line-height: 20px;
   text-transform: uppercase;
-  border: 2px solid $dark;
+  border: 2px solid $text-color;
+  border-radius: 10px;
   box-sizing: border-box;
   cursor: pointer;
   position: relative;
@@ -86,4 +137,14 @@
   width: 90%;
   letter-spacing: 1px;
   text-decoration: none !important;
+}
+
+@media (min-width: $tablet) {
+  .button__funnel {
+    width: 50%;
+  }
+}
+
+a.terms {
+  border-bottom: 1px dashed $link-color;
 }

@@ -1,0 +1,31 @@
+
+.about {
+  padding: 10px;
+}
+
+.blurb {
+  padding: 0px 5px;
+}
+
+@media (min-width: $tablet)  {
+  .artwork img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about div.blurb {
+    padding: 0% 10%;
+  }
+}
+
+@media (min-width: $desktop) {
+  .about div.artwork {
+    float: left;
+    width: 45%;
+  }
+  .about div.blurb {
+    float: right;
+    width: 70%;
+  }
+}

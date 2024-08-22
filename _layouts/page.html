@@ -1,6 +1,23 @@
 ---
 layout: default
 ---
-<main>
-    {{ content }}
-</main>
+      <div class="container">
+        <main>
+          <h1>{{ page.title | escape }}</h1>
+          {% if page.image %}
+          <img src="{{page.image}}" alt="{{ page.title | escape }}" />
+          {% endif %}
+          {% if page.date %}
+          <section class="updated">
+            <p>Last Updated: {{page.date | date_to_long_string}}</p>
+          </section>
+          {% endif %}
+          {% if page.callout %}
+          <section class="callout">
+            <p>{{page.callout}}</p>
+          </section>
+          {% endif %}
+          {{ content}}
+        </main>
+      </div>
+      <!-- end page -->
