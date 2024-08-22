@@ -1,54 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title> Fin Callender | Official Website </title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
-  </head><body>
-    <section id="home">
-    <header class="header">
-    <a href="/" class="logo"><h2>FIN CALLENDER</h2></a>
-    <input class="side-menu" type="checkbox" id="side-menu"/>
-    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-    <nav class="nav">
-        <ul class="menu">
-            <li><a href="/about">About</a></li>
-            <li><a href="/music">Music</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
-</header><section class="hero container">
-    <div class="hero-image"><img src="/assets/images/tracks/track-Fudge-2000x2000.avif" alt="Underground by Fin Callender" /></div>
-    <div class="hero-button"><button type="button" id="heroBtn" onclick="document.location='https://distrokid.com/hyperfollow/fincallender/fudge'">LISTEN NOW</button></div>
+  <meta charset="utf-8" />
+  <title> Fin Callender | Official Website </title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+</head>
+<body>
+    <div id="home" class="wrapper flexbox">
+          <header class="header">
+        <a href="/" class="logo"><h2>FIN CALLENDER</h2></a>
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="nav">
+          <ul class="menu">
+            <li><a href="/about/">About</a></li>
+            <li><a href="/music/">Music</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  <main class="hero flexbox">
+    <div class="hero-image"><img src="/assets/images/tracks/track-waiting_here_for_you-2000x2000.jpg" alt="Fudge by Fin Callender'" /></div>
+    <div class="hero-button"><button type="button" id="heroBtn" onclick="document.location='https://youtu.be/ZAjSZElSOj8?si=hCdL2DZ5qg65lXzs'">LISTEN NOW</button></div>
     <div class="hero-scrolldown">
-            <p>scroll down</p>
-            <ion-icon name="arrow-down"></ion-icon>
+      <p>scroll down</p>
+      <i class="fa-solid fa-circle-arrow-down"></i>
     </div>
-</section>
-<main class="home container">
-    <section class="about">
-        <div class="artwork">
-            <img src="/assets/images/people/fin_callender_sitting_on_steps.png" alt="Underground by Fin Callender" />
-        </div>
-        <div class="blurb">
-            <p><span class="leadin">Fin Callender </span>is a 21-year-old Electronic Dance Music Producer from Wokingham, Berkshire, and is currently based in Hull.</p>
-            <p>Debuting with his Future Rave track ‘Make Me Feel’, Fin Callender is eager to grow his sound and production to greater levels going forward whilst also expanding it to further push his skills into other electronic dance music genres and beyond.</p>
-        </div>
-        
-    </section>
-</main>
-<section class="newsletter text-align__center">
+  </main> 
+  <section class="about flexbox">
+    <div class="artwork">
+        <img src="/assets/images/people/fin_callender_sitting_on_steps.png" alt="Underground by Fin Callender" />
+    </div>
+    <div class="blurb">
+        <p><span class="leadin">Fin Callender </span>is a 21-year-old Electronic Dance Music Producer from Wokingham, Berkshire, and is currently based in Hull.</p>
+        <p>Debuting with his Future Rave track ‘Make Me Feel’, Fin Callender is eager to grow his sound and production to greater levels going forward whilst also expanding it to further push his skills into other electronic dance music genres and beyond.</p>
+    </div>
+  </section>
+  <section class="newsletter flexbox">
   <form action="https://mailchi.mp/e955584599ce/mailing-list-sign-up" method="post" name="mc-embedded-subscribe-form" class="form" target="_blank" novalidate="">
-      <h2>Let's stay in touch</h2>
-      <p>Subscribe to my newsletter to stay up to date!</p>
+      <h2>Signup</h2>
       <div class="form-wrapper">
           <div class="row col-xs__middle form-row">
               <div class="col-xs form-input form-input__text">
@@ -56,34 +53,87 @@
                   <input type="email" name="EMAIL" id="NewsletterFormEmail" class="contact-form-email newsletter" placeholder="Enter your email to subscribe to our newsletter" value="" spellcheck="false" autocomplete="off" autocapitalize="off" >
               </div>
               <div class="form-action">
-                  <input type="submit" class="button button__funnel" value="Subscribe"><br>
+                  <input type="submit" class="button button__funnel" value="Signup"><br>
                   <div class="input-check-terms">
-                      <input type="checkbox" id="terms" name="terms" required="">
-                      <label class="check-terms" for="terms">I accept <a href="https://shop.martingarrix.com/collections/new-items" target="_blank">Terms &amp; Conditions</a></label>
+                      <a class="terms" href="/terms-and-conditions/" target="_blank">Terms &amp; Conditions</a>
                   </div>
               </div>
           </div>
       </div>
-  </form></div> 
+  </form>
 </section>
-    </section>
-<footer id="main-footer">
-    <div id="footer-final">
-
+        <footer id="main-footer flexbox">
+      <div id="footer-final">
+        
       <div class="container">
         <ul class="social-icons">
   <li class="contact_item">
-            <a class="contact_link" href="https://www.facebook.com/fincallendermusic" target="_blank" rel="noopener"><ion-icon name="logo-facebook" size="large" aria-label="Fin on Facebook"></ion-icon></a>
+            <a class="contact_link" href="https://open.spotify.com/artist/3tV6lqHMXqZGj8AGbCTJco" target="_blank" rel="noopener"><i class="fa-brands fa-spotify fa-2xl" style="color: #85888c" aria-label="Fin on Spotify"></i></a>
           </li>
   <li class="contact_item">
-            <a class="contact_link" href="https://twitter.com/fincallender" target="_blank" rel="noopener"><ion-icon name="logo-twitter" size="large" aria-label="Fin on Twitter"></ion-icon></a>
+            <a class="contact_link" href="https://www.facebook.com/fincallendermusic" target="_blank" rel="noopener"><i class="fa-brands fa-facebook fa-2xl" style="color: #85888c" aria-label="Fin on Facebook"></i></a>
           </li>
   <li class="contact_item">
-            <a class="contact_link" href="https://www.instagram.com/fincallender/" target="_blank" rel="noopener"><ion-icon name="logo-instagram" size="large" aria-label="Fin on Instagram"></ion-icon></a>
+            <a class="contact_link" href="https://twitter.com/fincallender" target="_blank" rel="noopener"><i class="fa-brands fa-twitter fa-2xl" style="color: #85888c" aria-label="Fin on Twitter"></i></a>
+          </li>
+  <li class="contact_item">
+            <a class="contact_link" href="https://www.instagram.com/fincallender/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram fa-2xl" style="color: #85888c" aria-label="Fin on Instagram"></i></a>
           </li>
   </ul>
       </div>
 </div>
-  </footer><script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script></body>
+    </footer>
+</div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+      #cookie-notice {padding: 0.5rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);}
+      #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
+      @media (max-width: 767px) {
+        #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
+        #cookie-notice a {position: relative; bottom: 4px;}
+      }
+    </style>
+    <div id="cookie-notice">
+      <span>We would like to use third party cookies and scripts to improve the functionality of this website.</span>
+      <a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a>
+      <a href="/privacy-policy/" class="btn btn-primary btn-sm">More info</a>
+    </div>
+    <script>
+      function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + (days*24*60*60*1000));
+          expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+      }
+      function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1,c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+      }
+      function eraseCookie(name) {
+        createCookie(name,"",-1);
+      }
+
+      if(readCookie('cookie-notice-dismissed')=='true') {
+      // insert cookies here
+      } else {
+        document.getElementById('cookie-notice').style.display = 'block';
+      }
+      document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+        createCookie('cookie-notice-dismissed','true',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+      });
+
+    </script>
+  </body>
 </html>
